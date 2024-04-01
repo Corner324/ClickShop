@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header, body{
+    background-color: #32332e;
+}
+
+.header{
+    height: auto;
+    padding-bottom: 1%;
+}
+
+.header_spam_menu{
+    background-color: black;
+    height: auto;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo_clickshop{
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.search_img{
+    background-image: url(search_input.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    padding-left: 10px;
+    background-position: right 50%;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+}
+
+.main_catalog_menu{
+    height: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.main_promotions_menu{
+    height: auto;
+    text-align: center;
+}
+
+.anything_else{
+    width: auto;
+    height: 1000px;
+}
+
+.footer_menu{
+    padding: 50px;
+}
+
+
+.footer_main_text, .footer_copyright{
+    color: white;
+}
+
+.footer_main_text{
+    font-weight: bold;
+}
+
+.footer_block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.footer_info_menu{
+    line-height:50px;
+}
+
+.footer_copyright{
+    text-align: center;
+}
